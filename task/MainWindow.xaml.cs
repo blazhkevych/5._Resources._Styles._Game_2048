@@ -78,6 +78,7 @@ namespace task
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }
