@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Game2048;
 
 namespace task
 {
@@ -73,13 +74,17 @@ namespace task
     /// It is necessary to develop a user authentication window.
     /// Control styles and templates should be used for external appearance of controls.
     /// </summary>
+
+    /// <summary>Логика взаимодействия для MainWindow.xaml</summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-            vm = (ViewModel2048)DataContext;
+            vm = (ViewModel2048)DataContext;    
         }
+
+        private readonly ViewModel2048 vm;
 
         private void Window_KeyUp(object sender, KeyEventArgs e)
         {
