@@ -6,6 +6,9 @@
         xmlns:local="clr-namespace:task"
         mc:Ignorable="d" FontSize="20"
         Title="MainWindow" Height="600" Width="450" KeyUp="Window_KeyUp">
+    <Window.DataContext>
+        <local:ViewModel2048/>
+    </Window.DataContext>
     <Grid>
 
     </Grid>
