@@ -50,7 +50,7 @@ namespace task;
 ///     It is necessary to develop a user authentication window.
 ///     Control styles and templates should be used for external appearance of controls.
 /// </summary>
-/// <summary>Логика взаимодействия для MainWindow.xaml</summary>
+/// <summary>Логика взаимодействия для MainWindow.xaml</summary> 
 public partial class MainWindow : Window
 {
     private readonly ViewModel2048 vm;
